@@ -184,3 +184,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
 include vendor/xiaomi/sdm845-common/BoardConfigVendor.mk
+
+# Include the proprietary files BoardConfig.
+-include vendor/sony/dolby/BoardConfigDolby.mk
