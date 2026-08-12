@@ -1,0 +1,10 @@
+# The white notification/charging LED hangs off the display PMIC
+# (pmi8998 leds@d000) and is labeled vendor_sysfs_graphics, not sysfs_leds,
+# so the generic sysfs_leds grant the common lights HAL ships with does not
+# cover it. When the device switched from the custom lights HAL (which
+# carried its own grants for this node) to the common lights HAL running as
+# hal_light_default, no rule was added to let it drive the LED, so every
+# notification/charging light request fails with an enforced avc denial.
+# Grant the same access the fingerprint HAL already has to this node.
+allow hal_light_default vendor_sysfs_graphics:dir search;
+allow hal_light_default vendor_sysfs_graphics:file rw_file_perms;
