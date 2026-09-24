@@ -394,12 +394,18 @@ vendor/lib/liblistensoundmodel2.so
 vendor/lib/libmulawdec.so
 vendor/lib/libsmwrapper.so
 
-# Media - from guacamole - GM1911_11_H.38
-vendor/bin/hw/vendor.qti.media.c2@1.0-service|711fc86b6a7768ba844155b61debdda4e291767e
+# Media - from alioth / sm8250
+vendor/bin/hw/vendor.qti.media.c2@1.0-service|c170ebc5a0416f609186639125132b87a5650ef8
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|11209316ba8aae64b689217bc13b0804f6620678
-vendor/etc/seccomp_policy/codec2.vendor.base.policy|18b92b02c7906f72c28219dafc37a6fab87f06af
-vendor/etc/seccomp_policy/codec2.vendor.ext.policy|6a9a9eb3261048f02805261568097410e1a23b2d
-vendor/lib/libqcodec2.so|25be46d8bc16ba2b88310dea1ea6e4ab25cbe1fa
+vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy|0c917d1caa148923c9f48a0d0537ba06c6d71f2d
+vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy|2e1fc37af28df8506cd06cdf1d3c1bb89b4e3f7c
+vendor/lib/libjsoncpp.so|5750ccd645ded2048a840c2f3e31866a00b2a575
+vendor/lib/libqcodec2_base.so|5bec0dec355c90d2a9739105b6d9810291ab9995
+vendor/lib/libqcodec2_basecodec.so|a517b6a89bf54d58c46758621c6dce9056cb92f7
+vendor/lib/libqcodec2_core.so|b92991b36af312411eb4779fea1a5c22550c1d56
+vendor/lib/libqcodec2_platform.so|fccd9c509fbfda6a72299d90d8d680885a1238ec
+vendor/lib/libqcodec2_utils.so|485acb30246d20a1cfb0c91a9b3e185338d41d17
+vendor/lib/libqcodec2_v4l2codec.so|67057e81477e4b3432997b9d269e3db39c50e421
 
 # Mlipay
 vendor/bin/mlipayd@1.1
