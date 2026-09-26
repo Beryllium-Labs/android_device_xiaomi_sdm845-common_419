@@ -1,6 +1,9 @@
 # Audio
 ro.audio.soundtrigger             u:object_r:audio_config_prop:s0
 ro.audio.soundtrigger.lowpower    u:object_r:audio_config_prop:s0
+ro.audio.usb.period_us            u:object_r:audio_config_prop:s0
+ro.hardware.audio.tinyalsa.       u:object_r:audio_config_prop:s0
+audio.usb.enable.debug            u:object_r:audio_config_prop:s0
 
 # Camera
 camera.                     u:object_r:vendor_camera_prop:s0
