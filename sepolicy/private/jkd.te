@@ -1,0 +1,37 @@
+type jkd, domain, coredomain;
+type jkd_exec, system_file_type, exec_type, file_type;
+
+init_daemon_domain(jkd)
+
+userdebug_or_eng(`
+  permissive jkd;
+')
+
+# Allow jkd to execute shell and utilities
+allow jkd shell_exec:file rx_file_perms;
+allow jkd toolbox_exec:file rx_file_perms;
+allow jkd system_file:file rx_file_perms;
+allow jkd system_file:dir r_dir_perms;
+
+# Socket and local networking
+allow jkd self:unix_stream_socket create_stream_socket_perms;
+allow jkd self:tcp_socket create_socket_perms;
+allow jkd node:tcp_socket node_bind;
+allow jkd port:tcp_socket name_bind;
+
+# Inter-process communication
+allow platform_app jkd:unix_stream_socket connectto;
+allow system_app jkd:unix_stream_socket connectto;
+
+# Storage and data access
+allow jkd system_data_file:dir create_dir_perms;
+allow jkd system_data_file:file create_file_perms;
+
+# Sysfs / Proc tuning
+allow jkd sysfs:file rw_file_perms;
+allow jkd sysfs_devices_system_cpu:file rw_file_perms;
+allow jkd sysfs_kgsl:file rw_file_perms;
+allow jkd sysfs_batteryinfo:file r_file_perms;
+allow jkd sysfs_thermal:file rw_file_perms;
+allow jkd proc:file rw_file_perms;
+allow jkd proc_net:file r_file_perms;

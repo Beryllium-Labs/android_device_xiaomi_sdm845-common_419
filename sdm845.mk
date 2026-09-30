@@ -157,6 +157,9 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 PRODUCT_PACKAGES += \
     XiaomiParts
 
+# Jiro Kernel Control
+$(call inherit-product-if-exists, packages/apps/Jiro_kernel_ctrl/jiro_kernel_ctrl.mk)
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@3.0-impl-qti-display \

@@ -6,5 +6,10 @@
   {
     "repository": "android_kernel_xiaomi_sdm845",
     "target_path": "kernel/xiaomi/sdm845"
+  },
+  {
+    "repository": "Jiro_kernel_ctrl",
+    "target_path": "packages/apps/Jiro_kernel_ctrl",
+    "branch": "17.0"
   }
 ]
