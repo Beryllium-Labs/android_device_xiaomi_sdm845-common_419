@@ -3,7 +3,3 @@ allow radio { cameraserver_service mediaextractor_service mediaserver_service me
 binder_call(radio, vendor_cnd)
 binder_call(radio, gpuservice)
 binder_call(radio, vendor_hal_imsrtp)
-
-# CACertService
-add_hwservice(radio, vendor_hal_cacert_hwservice)
-allow radio vendor_hal_cacert_hwservice:hwservice_manager find;
