@@ -55,6 +55,9 @@ TARGET_KERNEL_CONFIG := \
     vendor/xiaomi/sdm845-common.config
 TARGET_KERNEL_NO_GCC := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
+TARGET_KERNEL_ADDITIONAL_FLAGS := \
+    KBUILD_BUILD_USER=Jiro \
+    KBUILD_BUILD_HOST=JiroKiller
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm845
