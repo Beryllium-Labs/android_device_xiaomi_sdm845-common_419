@@ -123,6 +123,15 @@ ro.crypto.volume.metadata.method=dm-default-key
 
 # Display
 ro.surface_flinger.supports_background_blur=1
+ro.surface_flinger.has_HDR_display=true
+ro.surface_flinger.has_wide_color_display=true
+ro.surface_flinger.use_color_management=true
+ro.surface_flinger.wcg_composition_dataspace=143261696
+debug.sf.recomputecrop=1
+
+# Codec2 HAL
+media.c2.hal.selection=hidl
+debug.stagefright.ccodec=4
 vendor.display.comp_mask=0
 vendor.display.disable_excl_rect=0
 vendor.display.disable_excl_rect_partial_fb=1

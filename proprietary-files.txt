@@ -399,6 +399,7 @@ vendor/bin/hw/vendor.qti.media.c2@1.0-service|c170ebc5a0416f609186639125132b87a5
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|11209316ba8aae64b689217bc13b0804f6620678
 vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy|0c917d1caa148923c9f48a0d0537ba06c6d71f2d
 vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy|2e1fc37af28df8506cd06cdf1d3c1bb89b4e3f7c
+vendor/etc/video_system_specs.json
 vendor/lib/libjsoncpp.so|5750ccd645ded2048a840c2f3e31866a00b2a575
 vendor/lib/libqcodec2_base.so|5bec0dec355c90d2a9739105b6d9810291ab9995
 vendor/lib/libqcodec2_basecodec.so|a517b6a89bf54d58c46758621c6dce9056cb92f7
