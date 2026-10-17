@@ -127,6 +127,12 @@ ro.surface_flinger.has_HDR_display=true
 ro.surface_flinger.has_wide_color_display=true
 ro.surface_flinger.use_color_management=true
 ro.surface_flinger.wcg_composition_dataspace=143261696
+ro.vendor.display.ad=1
+ro.vendor.display.ad.hdr_calib_data=/vendor/etc/hdr_config.cfg
+ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg
+ro.vendor.display.sensortype=2
+ro.vendor.dolby.dax.version=DAX3_3.7.0.8_r1
+vendor.display.enable_default_color_mode=1
 debug.sf.recomputecrop=1
 
 # Codec2 HAL
