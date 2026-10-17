@@ -34,7 +34,11 @@ public class BootCompletedReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(final Context context, Intent intent) {
         if (DEBUG) Log.d(TAG, "Received boot completed intent");
-        DiracUtils.initialize();
+        try {
+            DiracUtils.initialize();
+        } catch (Exception e) {
+            Log.e(TAG, "Failed to initialize Dirac audio effects", e);
+        }
         DozeUtils.checkDozeService(context);
         ThermalUtils.startService(context);
     }
