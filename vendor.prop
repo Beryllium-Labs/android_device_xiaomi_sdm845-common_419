@@ -131,7 +131,6 @@ ro.vendor.display.ad=1
 ro.vendor.display.ad.hdr_calib_data=/vendor/etc/hdr_config.cfg
 ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg
 ro.vendor.display.sensortype=2
-ro.vendor.dolby.dax.version=DAX3_3.7.0.8_r1
 vendor.display.enable_default_color_mode=1
 debug.sf.recomputecrop=1
 
