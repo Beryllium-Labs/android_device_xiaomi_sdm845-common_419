@@ -77,7 +77,7 @@
             <Limit name="blocks-per-second" range="24-2073600" />
             <Limit name="bitrate" range="1-120000000" />
             <Limit name="frame-rate" range="1-480" />
-            <Limit name="concurrent-instances" max="16" />
+            <Limit name="concurrent-instances" max="4" />
             <Limit name="performance-point-4096x2304" value="30" />
             <Limit name="performance-point-4096x2160" value="60" />
             <Limit name="performance-point-3840x2160" value="60" />
@@ -94,7 +94,7 @@
             <Limit name="blocks-per-second" range="24-2073600" />
             <Limit name="bitrate" range="1-120000000" />
             <Limit name="frame-rate" range="1-480" />
-            <Limit name="concurrent-instances" max="16" />
+            <Limit name="concurrent-instances" max="4" />
             <Feature name="low-latency" />
             <Limit name="performance-point-4096x2304" value="30" />
             <Limit name="performance-point-4096x2160" value="60" />
@@ -128,7 +128,7 @@
             <Limit name="blocks-per-second" range="24-2073600" />
             <Limit name="bitrate" range="1-120000000" />
             <Limit name="frame-rate" range="1-480" />
-            <Limit name="concurrent-instances" max="16" />
+            <Limit name="concurrent-instances" max="3" />
             <Limit name="performance-point-4096x2304" value="30" />
             <Limit name="performance-point-4096x2160" value="60" />
             <Limit name="performance-point-3840x2160" value="60" />
@@ -162,7 +162,7 @@
             <Limit name="blocks-per-second" range="24-1036800" />
             <Limit name="bitrate" range="1-120000000" />
             <Limit name="frame-rate" range="1-240" />
-            <Limit name="concurrent-instances" max="16" />
+            <Limit name="concurrent-instances" max="4" />
             <Limit name="performance-point-4096x2304" value="24" />
             <Limit name="performance-point-4096x2160" value="30" />
             <Limit name="performance-point-3840x2160" value="30" />
@@ -179,7 +179,7 @@
             <Limit name="blocks-per-second" range="24-2073600" />
             <Limit name="bitrate" range="1-120000000" />
             <Limit name="frame-rate" range="1-480" />
-            <Limit name="concurrent-instances" max="6" />
+            <Limit name="concurrent-instances" max="3" />
             <Limit name="performance-point-4096x2304" value="30" />
             <Limit name="performance-point-4096x2160" value="60" />
             <Limit name="performance-point-3840x2160" value="60" />
@@ -216,7 +216,7 @@
             <Limit name="blocks-per-second" range="24-2073600" />
             <Limit name="bitrate" range="1-120000000" />
             <Limit name="frame-rate" range="1-480" />
-            <Limit name="concurrent-instances" max="16" />
+            <Limit name="concurrent-instances" max="4" />
             <Limit name="performance-point-4096x2304" value="30" />
             <Limit name="performance-point-4096x2160" value="60" />
             <Limit name="performance-point-3840x2160" value="60" />
@@ -232,7 +232,7 @@
             <Limit name="blocks-per-second" range="24-2073600" />
             <Limit name="bitrate" range="1-120000000" />
             <Limit name="frame-rate" range="1-480" />
-            <Limit name="concurrent-instances" max="16" />
+            <Limit name="concurrent-instances" max="4" />
             <Limit name="quality" range="0-100" default="80" />
             <Limit name="performance-point-4096x2304" value="30" />
             <Limit name="performance-point-4096x2160" value="60" />
@@ -250,7 +250,7 @@
             <Limit name="blocks-per-second" min="24" max="1036800" />
             <Limit name="bitrate" range="1-120000000" />
             <Limit name="frame-rate" range="1-240" />
-            <Limit name="concurrent-instances" max="16" />
+            <Limit name="concurrent-instances" max="4" />
             <Limit name="performance-point-4096x2304" value="24" />
             <Limit name="performance-point-4096x2160" value="30" />
             <Limit name="performance-point-3840x2160" value="30" />
