@@ -1,0 +1,3 @@
+# CACertService / QtiDataServices
+user=radio seinfo=platform name=.qtidataservices domain=vendor_qtidataservices_app type=app_data_file levelFrom=all
+user=radio seinfo=platform name=vendor.qti.hardware.cacert.server domain=vendor_qtidataservices_app type=app_data_file levelFrom=all
