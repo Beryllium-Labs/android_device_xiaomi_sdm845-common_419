@@ -54,7 +54,6 @@
       "Path": "/sys/class/kgsl/kgsl-3d0/devfreq/max_freq",
       "Values": [
         "844000000",
-        "844000000",
         "802000000",
         "710000000",
         "342000000"
