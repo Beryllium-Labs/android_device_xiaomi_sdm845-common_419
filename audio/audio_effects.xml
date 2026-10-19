@@ -53,6 +53,8 @@
         <library name="vqe" path="libswvqe.so"/>
         <!--SPATIALIZER-->
         <library name="spatializer" path="libspatialaudio.so"/>
+        <!--DIRAC-->
+        <library name="dirac" path="libdirac.so"/>
     </libraries>
     <effects>
         <effectProxy name="bassboost" library="proxy" uuid="14804144-a5ee-4d24-aa88-0002a5d5c51b">
@@ -114,6 +116,8 @@
         <effect name="vqe" library="vqe" uuid="64a0f614-7fa4-48b8-b081-d59dc954616f"/>
 	<!--SPATIALIZER-->
         <effect name="spatializer" library="spatializer" uuid="cc4677de-ff72-11eb-9a03-0242ac130003"/>
+        <!--DIRAC-->
+        <effect name="dirac" library="dirac" uuid="e069d9e0-8329-11df-9168-0002a5d5c51b"/>
     </effects>
     <postprocess>
 		<!--

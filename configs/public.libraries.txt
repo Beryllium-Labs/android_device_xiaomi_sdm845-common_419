@@ -30,3 +30,4 @@ libalCFR.so
 libbeauty.so
 libprotobuf-cpp-full.so
 libprotobuf-cpp-lite.so
+libqmiservices.so
